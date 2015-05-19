@@ -96,6 +96,7 @@ Since this is a young package, we are maintaining compatibility with accounts-ui
       profileRoute: 'profile'
       passwordSignupFields: 'EMAIL_ONLY'
       showSignupCode: true
+      showCreateAccountLink : false    // TO TURN OFF account creation link
       showOtherLoginServices: true      // Set to false to hide oauth login buttons on the signin/signup pages. Useful if you are using something like accounts-meld or want to oauth for api access
       extraSignUpFields: [{             // Add extra signup fields on the signup page
         field: "name",                           // The database property you want to store the data in
