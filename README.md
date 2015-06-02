@@ -1,4 +1,10 @@
+#Configuration to disable account creation#
+Make sure the configuration file contains
 
+```js
+ showCreateAccountLink : false
+```
+Here is the full configuration options
 
 ```js
   Meteor.startup(function () {
